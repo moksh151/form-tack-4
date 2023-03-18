@@ -1,0 +1,250 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+nav {
+    background-color: rgb(125,10,12);
+    overflow: hidden;
+    padding: 10px;
+}
+nav img {
+    width: 50px;
+    height: 40px;
+    float: left;
+}
+nav ul {
+    margin: 15px 10px 10px 100px;
+}
+nav li {
+    list-style-type: none;
+    display: inline-block;
+}
+nav li a {
+    text-decoration: none;
+    color: #fff;
+    margin: 17px;
+    padding: 7px 15px;
+    background-color: rgba(1,3,17,0.411);
+    border-radius: 8px;
+    font-size: 17px;
+    text-transform: capitalize;
+}
+nav li a:hover {
+    background-color: #fff;
+    color: rgb(125,10,12);
+}
+header .hbg {
+    background-image: url("nn.png ");
+    width: 100%;
+    height: 75vh;
+    background-size: 100% 100%;
+    position: relative;
+}
+.hbg h1 {
+
+    color: #fff;
+    font-size: 40px;
+    position: absolute;
+    top: 100px;
+    left: 170px;
+    text-transform: capitalize;
+}
+.hbg li {
+    list-style-type: none;
+    display: inline-block;
+}
+.hbg ul {
+    position: absolute;
+    top: 300px;
+    left: 550px;
+}
+.hbg li a {
+    color: #fff;
+    text-decoration: none;
+    background-color: rgb(125,10,12);
+    padding: 15px 30px;
+    border-radius: 8px;
+    border: 2px rgba(1, 3, 17, 0.411) solid;
+    margin: 20px;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.hbg li a:hover {
+    background-color: #fff;
+    color: rgb(125,10,12);
+    border: 2px rgba(1, 3, 17, 0.656) solid;
+}
+.one {
+    position: relative;
+}
+.one h1 {
+    text-align: center;
+    margin: 150px 0;
+    font-size: 50px;
+}
+table td img {
+    width: 50px;
+    height: 50px;
+}
+table {
+    text-align: center;
+    border-collapse: collapse;
+    width: 70%;
+    height: 50%;
+    text-transform: capitalize;
+    position: absolute;
+    top: 100px;
+    left: 210px;
+    margin: 5px;
+}
+table tr td,th {
+    border: 2px rgb(125,10,12);
+    border-style: double;
+}
+table tr:nth-child(odd) {
+    background-color: #888;
+    color: #fff;
+}
+table tr:nth-child(even) {
+    background-color: #444;
+    color: #fff;
+}
+table thead tr th {
+    background-color: #fff;
+    padding: 5px;
+    color: black;
+}
+table tr td a {
+    text-decoration: none;
+    color: #0a0202;
+    background-color: rgb(125,10,12);
+    padding: 5px;
+    border-radius: 5px;
+    font-family: 'lobster' , cursive;
+    font-size: 15px;
+}
+table .before {
+    text-decoration: line-through;
+}
+table tr td a:hover {
+    color: rgb(125,10,12);
+    background-color: #fff;
+
+}
+.two h1 {
+    margin: 350px 0 70px 0;
+    text-align: center;
+    font-size: 50px;
+}
+.done {
+    background-image: url("  back2.jpg   ");
+    background-size: 100% 100%;
+    text-align: center;
+    padding: 20px 1px;
+}
+.secone , .sectwo , .secthree {
+    width: 379px;
+    height: 423px;
+    background-color: #888;
+    text-align: center;
+    display: inline-block;
+    border: #444 2px solid;
+    border-radius: 10px;
+    margin: 20px;
+
+}
+.two img {
+    width: 380px;
+    height: 170px;
+    border-radius: 5px;
+}
+.two h3 {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster', cursive;
+
+    font-size: 30px;
+    text-transform: uppercase;
+    margin: 20px;
+    font-weight: 30px;
+}
+.two p {
+    color: #fff;
+    margin: 5px 5px 60px;
+}
+.two a {
+    text-decoration: none;
+    color: #0c0303;
+    background-color: rgb(125,10,12);
+    padding: 19px 137px;
+    border: 2px rgba(245, 242, 242, 0.856) solid;
+    border-radius: 1px;
+}
+.two a:hover {
+    color: rgb(125,10,12);
+    background-color: #fff;
+    border: 2px black solid;
+}
+.section img {
+    width: 200px;
+    height: 200px;
+}
+.qw {
+    background-color: #A8BAE3;
+}
+.zero {
+    background-color: #E77B01;
+}
+.section {
+    text-align: center;
+    margin-top: 50px;
+}
+.qw , .zero {
+    width: 500px;
+    height: 390px;
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 30px;
+
+}
+.section h3 {
+    margin: 15px;
+}
+.section p {
+    color: #fff;
+    margin: 0 0 50px;
+}
+.section a {
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(125,10,12);
+    padding: 15px 50px;
+    border-radius: 10px;
+    border: 2px rgba(1, 3, 17, 0.411) solid;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+
+}
+.section a:hover {
+    color: rgb(125,10,12);
+    background-color: #fff;
+    border: 2px black solid;
+}
+footer {
+    color: #fff;
+    background-color: black;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 35px;
+    padding: 35px;
+    margin-top: 20px;
+
+}
+.ddy{
+    color: red;
+    background-size: 2000px;
+}
+
+.sectwo h3,.secone h3 ,.secthree h3 {
+    font-family: 'Rubik Iso', cursive;}
